@@ -16,6 +16,7 @@ using HCL.HackatonHotels.Configuration;
 using HCL.HackatonHotels.Identity;
 
 using Abp.AspNetCore.SignalR.Hubs;
+using HCL.HackatonHotels.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HCL.HackatonHotels.Web.Host.Startup

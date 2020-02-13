@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HCl.Hotel.Api.DataProvider.Models
+namespace HCL.HackatonHotels.Web.Core.Models.Hotel
 {
     public class BookedRoom
     {

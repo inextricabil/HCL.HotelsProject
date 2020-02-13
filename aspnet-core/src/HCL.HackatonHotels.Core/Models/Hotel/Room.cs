@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HCl.Hotel.Api.DataProvider.Models
+namespace HCL.HackatonHotels.Core.Models.Hotel
 {
     public class Room
     {
