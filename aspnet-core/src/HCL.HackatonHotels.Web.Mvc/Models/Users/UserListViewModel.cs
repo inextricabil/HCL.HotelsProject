@@ -9,5 +9,8 @@ namespace HCL.HackatonHotels.Web.Models.Users
         public IReadOnlyList<UserDto> Users { get; set; }
 
         public IReadOnlyList<RoleDto> Roles { get; set; }
+
+        public IReadOnlyList<RoomDto> Rooms { get; set; }
+
     }
 }
