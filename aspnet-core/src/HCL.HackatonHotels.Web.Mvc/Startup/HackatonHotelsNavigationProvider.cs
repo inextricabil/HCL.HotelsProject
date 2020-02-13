@@ -12,11 +12,20 @@ namespace HCL.HackatonHotels.Web.Startup
         public override void SetNavigation(INavigationProviderContext context)
         {
             context.Manager.MainMenu
+
                 .AddItem(
                     new MenuItemDefinition(
                         PageNames.Home,
                         L("HomePage"),
                         url: "",
+                        icon: "home",
+                        requiresAuthentication: true
+                    )
+                    .AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Home,
+                        L("Hotels"),
+                        url: "Hotels",
                         icon: "home",
                         requiresAuthentication: true
                     )
@@ -127,7 +136,7 @@ namespace HCL.HackatonHotels.Web.Startup
                                 url: "https://aspnetzero.com/Documents?ref=abptmpl"
                             )
                         )
-                    )
+                    ))
                 );
         }
 
