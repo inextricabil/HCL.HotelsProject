@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Abp.Domain.Entities;
 
 namespace HCL.HackatonHotels.Core.Models.Hotel
 {
-    public class Room
+    public class Room : IEntity
     {
         public Room()
         {
             this.Books = new List<BookedRoom>();
         }
 
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         public int RoomNumber { get; set; }
 
@@ -20,10 +20,15 @@ namespace HCL.HackatonHotels.Core.Models.Hotel
 
         public string Description { get; set; }
 
-        public long HotelId { get; set; }
+        public int HotelId { get; set; }
 
         public Hotel Hotel { get; set; }
 
         public ICollection<BookedRoom> Books { get; set; }
+
+        public bool IsTransient()
+        {
+            return true;
+        }
     }
 }

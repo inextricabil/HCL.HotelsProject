@@ -1,12 +1,9 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Abp.EntityFrameworkCore;
+using Abp.Domain.Repositories;
 using HCL.HackatonHotels.Controllers;
 using HCL.HackatonHotels.Core.Models.Hotel;
-using HCL.HackatonHotels.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace HCL.HackatonHotels.Web.Host.Controllers
 {
@@ -14,25 +11,25 @@ namespace HCL.HackatonHotels.Web.Host.Controllers
     [ApiController]
     public class HotelsController : HackatonHotelsControllerBase
     {
-        private readonly HackatonHotelsDbContext _context;
+        private readonly IRepository<Hotel> _repository;
 
-        public HotelsController(IDbContextProvider<HackatonHotelsDbContext> dbContextProvider)
+        public HotelsController(IRepository<Hotel> repository)
         {
-            this._context = dbContextProvider.GetDbContext();
+            this._repository = repository;
         }
 
         // GET: api/Hotels
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Hotel>>> GetHotels()
         {
-            return await this._context.Hotels.ToListAsync();
+            return await this._repository.GetAllListAsync();
         }
 
         // GET: api/Hotels/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Hotel>> GetHotel(long id)
+        public async Task<ActionResult<Hotel>> GetHotel(int id)
         {
-            Hotel hotel = await this._context.Hotels.FindAsync(id);
+            Hotel hotel = await this._repository.GetAsync(id);
 
             if (hotel == null)
             {
@@ -44,63 +41,32 @@ namespace HCL.HackatonHotels.Web.Host.Controllers
 
         // PUT: api/Hotels/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutHotel(long id, Hotel hotel)
+        public async Task<ActionResult<Hotel>> PutHotel(int id, Hotel hotel)
         {
             if (id != hotel.Id)
             {
                 return this.BadRequest();
             }
 
-            this._context.Entry(hotel).State = EntityState.Modified;
-
-            try
-            {
-                await this._context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!this.HotelExists(id))
-                {
-                    return this.NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return this.NoContent();
+            return await this._repository.UpdateAsync(hotel);
         }
 
         // POST: api/Hotels
         [HttpPost]
         public async Task<ActionResult<Hotel>> PostHotel(Hotel hotel)
         {
-            this._context.Hotels.Add(hotel);
-            await this._context.SaveChangesAsync();
+            int id = await this._repository.InsertAndGetIdAsync(hotel);
 
-            return this.CreatedAtAction("GetHotel", new { id = hotel.Id }, hotel);
+            return this.CreatedAtAction("GetHotel", new { id }, hotel);
         }
 
         // DELETE: api/Hotels/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Hotel>> DeleteHotel(long id)
+        public IActionResult DeleteHotel(int id)
         {
-            Hotel hotel = await this._context.Hotels.FindAsync(id);
-            if (hotel == null)
-            {
-                return this.NotFound();
-            }
+            this._repository.Delete(id);
 
-            this._context.Hotels.Remove(hotel);
-            await this._context.SaveChangesAsync();
-
-            return hotel;
-        }
-
-        private bool HotelExists(long id)
-        {
-            return this._context.Hotels.Any(e => e.Id == id);
+            return this.Ok();
         }
     }
 }
