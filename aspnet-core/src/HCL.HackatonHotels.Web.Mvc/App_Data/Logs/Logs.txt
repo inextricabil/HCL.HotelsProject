@@ -9907,3 +9907,50 @@ INFO  2020-02-13 13:59:46,674 [14   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2020-02-13 13:59:47,018 [10   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2020-02-13 13:59:47,079 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"EAueKBQaSncp3xuum0p8XQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T13:59:47.0662189+02:00","Properties":{}}
 DEBUG 2020-02-13 13:59:47,168 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: EAueKBQaSncp3xuum0p8XQ
+DEBUG 2020-02-13 14:21:55,330 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 14:21:55,376 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 14:21:55,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Startup.HackatonHotelsWebMvcModule, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:55,427 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 14:21:55,557 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:21:55,558 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:21:55,558 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:21:55,558 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:21:56,056 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:56,312 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:21:56,910 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 14:21:56,978 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 14:21:56,993 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 14:21:57,004 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 14:21:57,011 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 14:21:57,098 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 14:21:57,150 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 14:21:57,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-13 14:21:57,227 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 14:21:57,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 14:21:57,238 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 14:21:57,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 14:21:57,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 14:21:57,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 14:21:57,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 14:21:57,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+DEBUG 2020-02-13 14:21:57,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-02-13 14:21:57,241 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-02-13 14:22:05,184 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-02-13 14:22:07,515 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2339.4277ms 200 application/json
+INFO  2020-02-13 14:22:07,521 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=07bz2LJ5HQoURUkhNsQgug  
+INFO  2020-02-13 14:22:07,882 [14   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-02-13 14:22:08,123 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"07bz2LJ5HQoURUkhNsQgug","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T14:22:07.9244099+02:00","Properties":{}}
