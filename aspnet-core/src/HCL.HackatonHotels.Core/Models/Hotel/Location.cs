@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using Abp.Domain.Entities;
 
 namespace HCL.HackatonHotels.Core.Models.Hotel
 {
-    public class Location
+    public class Location : IEntity
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         public string Country { get; set; }
 
@@ -17,5 +18,10 @@ namespace HCL.HackatonHotels.Core.Models.Hotel
         public string PostalCode { get; set; }
 
         public ICollection<Hotel> Hotels { get; set; }
+
+        public bool IsTransient()
+        {
+            return true;
+        }
     }
 }

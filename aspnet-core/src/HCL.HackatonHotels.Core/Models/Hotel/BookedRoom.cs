@@ -1,21 +1,27 @@
 ﻿using System;
+using Abp.Domain.Entities;
 
 namespace HCL.HackatonHotels.Core.Models.Hotel
 {
-    public class BookedRoom
+    public class BookedRoom : IEntity
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
 
-        public long RoomId { get; set; }
+        public int RoomId { get; set; }
 
         public Room Room { get; set; }
 
-        public long ClientId { get; set; }
+        public int ClientId { get; set; }
 
         public Client Client { get; set; }
 
         public DateTime StartDate { get; set; }
 
         public DateTime EndDate { get; set; }
+
+        public bool IsTransient()
+        {
+            return true;
+        }
     }
 }

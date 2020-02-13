@@ -1356,3 +1356,400 @@ INFO  2020-02-13 14:02:42,118 [14   ] ft.AspNetCore.Routing.EndpointMiddleware -
 INFO  2020-02-13 14:02:42,120 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host)'
 INFO  2020-02-13 14:02:46,758 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host)
 INFO  2020-02-13 14:02:46,761 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetHotels", controller = "Hotels", area = ""}. Executing action HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host)
+DEBUG 2020-02-13 14:41:18,619 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 14:41:18,767 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 14:41:18,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Host.Startup.HackatonHotelsWebHostModule, HCL.HackatonHotels.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:18,796 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 14:41:18,875 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:18,876 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:18,876 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:18,876 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:19,320 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:20,567 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 14:41:20,661 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 14:41:20,733 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 14:41:20,775 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 14:41:20,828 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 14:41:21,094 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 14:41:21,261 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 14:41:21,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-02-13 14:41:21,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 14:41:21,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 14:41:21,317 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 14:41:21,318 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 14:41:21,318 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 14:41:21,318 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 14:41:21,318 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 14:41:21,318 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+DEBUG 2020-02-13 14:41:40,842 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 14:41:40,862 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 14:41:40,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Host.Startup.HackatonHotelsWebHostModule, HCL.HackatonHotels.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:40,887 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 14:41:40,941 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:40,941 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:40,941 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:40,941 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:41:41,263 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:41:41,647 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 14:41:41,729 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 14:41:41,797 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 14:41:41,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 14:41:41,885 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 14:41:41,931 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 14:41:41,954 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 14:41:41,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-02-13 14:41:41,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 14:41:42,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 14:41:42,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 14:41:42,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 14:41:42,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 14:41:42,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 14:41:42,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 14:41:42,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+FATAL 2020-02-13 14:41:43,339 [1    ] Abp.AbpBootstrapper                      - System.InvalidOperationException: The relationship from 'Room.Hotel' to 'Hotel.Rooms' with foreign key properties {'HotelId' : long} cannot target the primary key {'Id' : int} because it is not compatible. Configure a principal key or a set of compatible foreign key properties for this relationship.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNoShadowKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at HCL.HackatonHotels.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at HCL.HackatonHotels.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule.PostInitialize() in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\HackatonHotelsEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+System.InvalidOperationException: The relationship from 'Room.Hotel' to 'Hotel.Rooms' with foreign key properties {'HotelId' : long} cannot target the primary key {'Id' : int} because it is not compatible. Configure a principal key or a set of compatible foreign key properties for this relationship.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNoShadowKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at HCL.HackatonHotels.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at HCL.HackatonHotels.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule.PostInitialize() in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\HackatonHotelsEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2020-02-13 14:41:43,352 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.InvalidOperationException: The relationship from 'Room.Hotel' to 'Hotel.Rooms' with foreign key properties {'HotelId' : long} cannot target the primary key {'Id' : int} because it is not compatible. Configure a principal key or a set of compatible foreign key properties for this relationship.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNoShadowKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at HCL.HackatonHotels.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at HCL.HackatonHotels.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule.PostInitialize() in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.EntityFrameworkCore\EntityFrameworkCore\HackatonHotelsEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at HCL.HackatonHotels.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Host\Startup\Startup.cs:line 92
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+INFO  2020-02-13 14:41:43,768 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/hotels  
+INFO  2020-02-13 14:41:43,768 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-02-13 14:41:43,768 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+ERROR 2020-02-13 14:41:43,815 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLTGG8ABC34S", Request id "0HLTGG8ABC34S:00000001": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: values
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at Microsoft.Extensions.RazorViews.BaseView.EndWriteAttribute()
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ERROR 2020-02-13 14:41:43,815 [6    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLTGG8ABC34R", Request id "0HLTGG8ABC34R:00000001": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: values
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at Microsoft.Extensions.RazorViews.BaseView.EndWriteAttribute()
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ERROR 2020-02-13 14:41:43,842 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLTGG8ABC34T", Request id "0HLTGG8ABC34T:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot write to the response body, the response has completed.
+Object name: 'HttpResponseStream'.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.<ValidateState>g__ThrowObjectDisposedException|24_0()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2020-02-13 14:41:43,880 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.9905ms 500 
+INFO  2020-02-13 14:41:43,880 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.9242ms 500 
+INFO  2020-02-13 14:41:43,880 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.8622ms 500 
+WARN  2020-02-13 14:41:46,979 [10   ] Abp.BackgroundJobs.BackgroundJobManager  - System.InvalidOperationException: The relationship from 'Room.Hotel' to 'Hotel.Rooms' with foreign key properties {'HotelId' : long} cannot target the primary key {'Id' : int} because it is not compatible. Configure a principal key or a set of compatible foreign key properties for this relationship.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNoShadowKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 114
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 92
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+System.InvalidOperationException: The relationship from 'Room.Hotel' to 'Hotel.Rooms' with foreign key properties {'HotelId' : long} cannot target the primary key {'Id' : int} because it is not compatible. Configure a principal key or a set of compatible foreign key properties for this relationship.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNoShadowKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 55
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 114
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 92
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+DEBUG 2020-02-13 14:52:00,068 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 14:52:00,213 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 14:52:00,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Host.Startup.HackatonHotelsWebHostModule, HCL.HackatonHotels.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:00,239 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 14:52:00,320 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:52:00,320 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:52:00,320 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:52:00,320 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 14:52:00,740 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 14:52:01,914 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 14:52:02,001 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 14:52:02,092 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 14:52:02,132 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 14:52:02,180 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 14:52:02,432 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 14:52:02,608 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 14:52:02,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-02-13 14:52:02,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 14:52:02,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 14:52:02,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 14:52:02,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 14:52:02,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 14:52:02,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 14:52:02,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 14:52:02,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+INFO  2020-02-13 14:52:09,928 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-02-13 14:52:09,928 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2020-02-13 14:52:10,025 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 105.0388ms 200 
+INFO  2020-02-13 14:52:10,257 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host)'
+INFO  2020-02-13 14:52:14,764 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host)
+INFO  2020-02-13 14:52:16,047 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host) - Validation state: Valid
+INFO  2020-02-13 14:52:16,055 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.5367ms.
+INFO  2020-02-13 14:52:16,622 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/hotels  
+INFO  2020-02-13 14:52:16,634 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host)'
+INFO  2020-02-13 14:52:16,662 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetHotels", controller = "Hotels", area = ""}. Executing action HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host)
+INFO  2020-02-13 14:52:16,738 [14   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-02-13 14:52:16,774 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host) in 1999.6047ms
+INFO  2020-02-13 14:52:16,782 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HCL.HackatonHotels.Web.Host.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Host)'
+INFO  2020-02-13 14:52:16,849 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6931.6486ms 302 
+INFO  2020-02-13 14:52:16,941 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host) - Validation state: Valid
+INFO  2020-02-13 14:52:17,101 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 155.4612ms.
+INFO  2020-02-13 14:52:17,445 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-13 14:52:17,603 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host) in 936.9278ms
+INFO  2020-02-13 14:52:17,605 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host)'
+INFO  2020-02-13 14:52:17,613 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 989.9917ms 200 application/json; charset=utf-8
+INFO  2020-02-13 14:52:17,677 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2020-02-13 14:52:17,714 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.8371ms 404 
+INFO  2020-02-13 14:52:20,725 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/hotels  
+INFO  2020-02-13 14:52:20,730 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host)'
+INFO  2020-02-13 14:52:20,736 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetHotels", controller = "Hotels", area = ""}. Executing action HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host)
+INFO  2020-02-13 14:52:25,344 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host) - Validation state: Valid
+INFO  2020-02-13 14:52:26,539 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1190.5635ms.
+INFO  2020-02-13 14:52:26,813 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-13 14:52:26,816 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host) in 6077.3349ms
+INFO  2020-02-13 14:52:26,819 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'HCL.HackatonHotels.Web.Host.Controllers.HotelsController.GetHotels (HCL.HackatonHotels.Web.Host)'
+INFO  2020-02-13 14:52:26,824 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6097.703ms 200 application/json; charset=utf-8

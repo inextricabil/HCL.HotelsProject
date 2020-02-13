@@ -4,14 +4,16 @@ using HCL.HackatonHotels.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HCL.HackatonHotels.Migrations
 {
     [DbContext(typeof(HackatonHotelsDbContext))]
-    partial class HackatonHotelsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200213125121_HotelConextUpdatedv2")]
+    partial class HotelConextUpdatedv2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

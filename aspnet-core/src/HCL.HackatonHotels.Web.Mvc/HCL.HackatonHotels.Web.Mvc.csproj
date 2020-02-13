@@ -53,6 +53,7 @@
     <PackageReference Include="Abp.RedisCache" Version="4.9.0" />
     <PackageReference Include="Abp.Castle.Log4Net" Version="4.9.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="RestSharp" Version="106.10.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
