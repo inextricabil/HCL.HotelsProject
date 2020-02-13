@@ -12,6 +12,7 @@ namespace HCL.HackatonHotels.Web.Startup
         public override void SetNavigation(INavigationProviderContext context)
         {
             context.Manager.MainMenu
+
                 .AddItem(
                     new MenuItemDefinition(
                         PageNames.Home,
@@ -20,7 +21,33 @@ namespace HCL.HackatonHotels.Web.Startup
                         icon: "home",
                         requiresAuthentication: true
                     )
+                )
+                 .AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Hotels,
+                        L("Hotels"),
+                        url: "Hotels",
+                        icon: "home",
+                        requiresAuthentication: true
+                    )
                 ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Rooms,
+                        L("Rooms"),
+                        url: "Rooms",
+                        icon: "home",
+                        requiresAuthentication: true
+                    )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Clients,
+                        L("Clients"),
+                        url: "Clients",
+                        icon: "home",
+                        requiresAuthentication: true
+                    )
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         PageNames.Tenants,
                         L("Tenants"),
