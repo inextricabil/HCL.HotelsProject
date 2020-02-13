@@ -21,15 +21,33 @@ namespace HCL.HackatonHotels.Web.Startup
                         icon: "home",
                         requiresAuthentication: true
                     )
-                    .AddItem(
+                )
+                 .AddItem(
                     new MenuItemDefinition(
-                        PageNames.Home,
+                        PageNames.Hotels,
                         L("Hotels"),
                         url: "Hotels",
                         icon: "home",
                         requiresAuthentication: true
                     )
                 ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Rooms,
+                        L("Rooms"),
+                        url: "Rooms",
+                        icon: "home",
+                        requiresAuthentication: true
+                    )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Clients,
+                        L("Clients"),
+                        url: "Clients",
+                        icon: "home",
+                        requiresAuthentication: true
+                    )
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         PageNames.Tenants,
                         L("Tenants"),
@@ -136,7 +154,7 @@ namespace HCL.HackatonHotels.Web.Startup
                                 url: "https://aspnetzero.com/Documents?ref=abptmpl"
                             )
                         )
-                    ))
+                    )
                 );
         }
 
