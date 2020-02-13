@@ -9954,3 +9954,693 @@ INFO  2020-02-13 14:22:07,515 [13   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2020-02-13 14:22:07,521 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=07bz2LJ5HQoURUkhNsQgug  
 INFO  2020-02-13 14:22:07,882 [14   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2020-02-13 14:22:08,123 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"07bz2LJ5HQoURUkhNsQgug","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T14:22:07.9244099+02:00","Properties":{}}
+DEBUG 2020-02-13 15:18:13,399 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 15:18:13,548 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 15:18:13,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Startup.HackatonHotelsWebMvcModule, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:13,577 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 15:18:13,661 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:18:13,662 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:18:13,662 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:18:13,662 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:18:14,131 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:14,391 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:18:15,426 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 15:18:15,512 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 15:18:15,585 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 15:18:15,624 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 15:18:15,678 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 15:18:15,937 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 15:18:16,108 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 15:18:16,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-13 15:18:16,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 15:18:16,164 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 15:18:16,165 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 15:18:16,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 15:18:16,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 15:18:16,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 15:18:16,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 15:18:16,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+DEBUG 2020-02-13 15:18:16,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-02-13 15:18:16,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-02-13 15:18:23,399 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-02-13 15:18:23,399 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2020-02-13 15:18:23,496 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.8318ms 200 
+INFO  2020-02-13 15:18:28,432 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc)
+WARN  2020-02-13 15:18:29,095 [11   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2020-02-13 15:18:29,105 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-02-13 15:18:29,119 [11   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2020-02-13 15:18:29,144 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-02-13 15:18:29,150 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) in 710.4562ms
+INFO  2020-02-13 15:18:29,170 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-02-13 15:18:29,174 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5785.411ms 302 
+INFO  2020-02-13 15:18:29,210 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:18:32,975 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2020-02-13 15:18:32,987 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.4088ms.
+INFO  2020-02-13 15:18:33,455 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-02-13 15:18:34,362 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 962.0603ms.
+INFO  2020-02-13 15:18:34,370 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc) in 5157.4921ms
+INFO  2020-02-13 15:18:34,390 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5219.6288ms 200 text/html; charset=utf-8
+INFO  2020-02-13 15:18:34,412 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=8pEJ8MWsFzHRDLY0NI5rssf6T6vankxrJDPnnZxOGrg  
+INFO  2020-02-13 15:18:34,414 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=53F8z0aw8DRnG9ou9x1tuKMPbNjRZWM-VBHl3B0s9-o  
+INFO  2020-02-13 15:18:34,417 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=opI27tVP8lfzTdiKv9Wi8UuRkNhIAvZwMVLWtOpRHKk  
+INFO  2020-02-13 15:18:34,425 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=JVJiF3s2_kk99xQHfYhfxo_-Dd52ZIruDMOILwPkqv0  
+INFO  2020-02-13 15:18:34,429 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=kKePN_CyxTiMEgsSDu_7z21ru07YOZtR-0UV0JOkt5o  
+INFO  2020-02-13 15:18:34,433 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=YIHlqxkiJtENTMuzIHC9EfZaB5RniGr7kF7juUQJUuc  
+INFO  2020-02-13 15:18:34,485 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2020-02-13 15:18:34,490 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2020-02-13 15:18:34,494 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2020-02-13 15:18:34,497 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.3092ms 200 text/css
+INFO  2020-02-13 15:18:34,503 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.9067ms 200 text/css
+INFO  2020-02-13 15:18:34,505 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=Hmj_hRbtMwZt6Iov-5Sm2qe6D6y7PFUTQRDdUyYreE4  
+INFO  2020-02-13 15:18:34,507 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=ey-J3xahkqficOYUHVX3jexmzvRFrge9bmux4CQr1DQ  
+INFO  2020-02-13 15:18:34,510 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.3272ms 200 text/css
+INFO  2020-02-13 15:18:34,513 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2020-02-13 15:18:34,515 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=xwt8JYbj8Mkb1RNju6XwW_7TfGRHHIDWaSjBggiszMY  
+INFO  2020-02-13 15:18:34,517 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.5114ms 200 text/css
+INFO  2020-02-13 15:18:34,522 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2020-02-13 15:18:34,524 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=IT6GQizZpVcaM1_L_mIiNAYVvZErMgfwewf1GGWXG_I  
+INFO  2020-02-13 15:18:34,527 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2020-02-13 15:18:34,529 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.1275ms 200 text/css
+INFO  2020-02-13 15:18:34,532 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-02-13 15:18:34,536 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=poK-oXF5FUWfhU9hEaEbjLzGQhIVms6YtQoQ3OEZtec  
+INFO  2020-02-13 15:18:34,538 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.831ms 200 text/css
+INFO  2020-02-13 15:18:34,540 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.8696ms 200 text/css
+INFO  2020-02-13 15:18:34,542 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=w3DjWhUtDqy3bSJKv285C-2kagUtW9F64T9z3xRah8g  
+INFO  2020-02-13 15:18:34,545 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=GcL_g4TBRVIQSi96WoMK71EGaYN9ZfsMIKm-50nlS4s  
+INFO  2020-02-13 15:18:34,549 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2020-02-13 15:18:34,556 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2020-02-13 15:18:34,563 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.93ms 200 text/css
+INFO  2020-02-13 15:18:34,566 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2020-02-13 15:18:34,570 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=1fo3W6qowq4PinpCsKshaVqewExoFmzrRBGKbSdAVEk  
+INFO  2020-02-13 15:18:34,573 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.4266ms 200 application/javascript
+INFO  2020-02-13 15:18:34,577 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-02-13 15:18:34,582 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2020-02-13 15:18:34,584 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=ZDzsHzuLAtqQVxXwbgRtfAPXQ7UAoJRXBAUDvc9G9CI  
+INFO  2020-02-13 15:18:34,588 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.8415ms 200 text/css
+INFO  2020-02-13 15:18:34,590 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2020-02-13 15:18:34,593 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=KKcUNqwNyTLaXzvuMyFk6JisiQq6Hk7ZtrciXnEf3Z0  
+INFO  2020-02-13 15:18:34,595 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.8743ms 200 application/javascript
+INFO  2020-02-13 15:18:34,599 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.7536ms 200 text/css
+INFO  2020-02-13 15:18:34,602 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2020-02-13 15:18:34,604 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2020-02-13 15:18:34,607 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=5f0RFtuChrGi6osDzegxXWf5yOkmx45i7J9fM1p6P5w  
+INFO  2020-02-13 15:18:34,611 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.775ms 200 application/javascript
+INFO  2020-02-13 15:18:34,614 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2020-02-13 15:18:34,616 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-02-13 15:18:34,619 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.2941ms 200 application/javascript
+INFO  2020-02-13 15:18:34,622 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2020-02-13 15:18:34,624 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=ZOMv1vwqpT_ezNZGhvr9jJTr_jqu3lYHB7vmpxD7HmA  
+INFO  2020-02-13 15:18:34,628 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.3026ms 200 application/javascript
+INFO  2020-02-13 15:18:34,632 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2020-02-13 15:18:34,636 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=prO6YeBrp6FzpE6glX7_GlSoPssvH4_OmY6Z3YJ2c6c  
+INFO  2020-02-13 15:18:34,640 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2020-02-13 15:18:34,642 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2020-02-13 15:18:34,644 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.4924ms 200 application/javascript
+INFO  2020-02-13 15:18:34,648 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2020-02-13 15:18:34,652 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=EjNSmvtPSqCVK_xG_aTvOp8hmVM_7vwyd3hg45CAMGk  
+INFO  2020-02-13 15:18:34,654 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.6709ms 200 application/javascript
+INFO  2020-02-13 15:18:34,655 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.5595ms 200 application/javascript
+INFO  2020-02-13 15:18:34,657 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2020-02-13 15:18:34,660 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-02-13 15:18:34,664 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=XEXcdRYb4eN3XoQCbnM-BSR6UifHRLsXYDIVFZ7Oc6Q  
+INFO  2020-02-13 15:18:34,666 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.9092ms 200 application/javascript
+INFO  2020-02-13 15:18:34,668 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.9286ms 200 application/javascript
+INFO  2020-02-13 15:18:34,670 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-02-13 15:18:34,672 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=QiSp17ew3zyFmdlcKq4HCIOw7UaqE8MC46Ekv50GzPs  
+INFO  2020-02-13 15:18:34,677 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.7437ms 200 application/javascript
+INFO  2020-02-13 15:18:34,681 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-02-13 15:18:34,683 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-02-13 15:18:34,686 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-02-13 15:18:34,687 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.3022ms 200 application/javascript
+INFO  2020-02-13 15:18:34,689 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.2806ms 200 application/javascript
+INFO  2020-02-13 15:18:34,692 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=fPp3O_ILaqD0UHiR721w1i4iBtxo3NH7yfldI5dg0_I  
+INFO  2020-02-13 15:18:34,695 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=PWsyMMubZBs9XYYSz3mwKM-vjPy1nNdKczNywALICuQ  
+INFO  2020-02-13 15:18:34,697 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-02-13 15:18:34,699 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-02-13 15:18:34,702 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.74ms 200 application/javascript
+INFO  2020-02-13 15:18:34,704 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.0454ms 200 application/javascript
+INFO  2020-02-13 15:18:34,707 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637172038961090124  
+INFO  2020-02-13 15:18:34,711 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-02-13 15:18:34,714 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-02-13 15:18:34,716 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.3945ms 200 application/javascript
+INFO  2020-02-13 15:18:34,718 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.5438ms 200 application/javascript
+INFO  2020-02-13 15:18:34,720 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637172038961090124  
+INFO  2020-02-13 15:18:34,723 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637172039143390938  
+INFO  2020-02-13 15:18:34,725 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=Arfe4oER5FiUTDitsyC7vauFkVzED5S2QjygyKFEnZ8  
+INFO  2020-02-13 15:18:34,728 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=b1plKpQIB-XuGyjWec42MhmhpPzEPzFI3OC8Ia0XIoc  
+INFO  2020-02-13 15:18:34,730 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 126.6416ms 200 text/css
+INFO  2020-02-13 15:18:34,735 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=nd3hxjNg6DhkuFIz5IbxLK8Xw2ac0blsDQpF4pkJxUc  
+INFO  2020-02-13 15:18:34,737 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-02-13 15:18:34,740 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2020-02-13 15:18:34,743 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.4879ms 200 application/javascript
+INFO  2020-02-13 15:18:34,746 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.0544ms 200 application/javascript
+INFO  2020-02-13 15:18:34,748 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=fva4_U7JLc8QKq91dLZyvV5oMz9WxjutKXJ_MOl_Dj8  
+INFO  2020-02-13 15:18:34,752 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\js\admin.js'
+INFO  2020-02-13 15:18:34,755 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2020-02-13 15:18:34,758 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.2958ms 200 application/javascript
+INFO  2020-02-13 15:18:34,760 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-02-13 15:18:34,763 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.0013ms 200 text/css
+INFO  2020-02-13 15:18:34,765 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.0817ms 200 application/javascript
+INFO  2020-02-13 15:18:34,775 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-02-13 15:18:34,783 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-02-13 15:18:34,788 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-02-13 15:18:34,793 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-02-13 15:18:34,796 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-02-13 15:18:34,799 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.9385ms 200 image/png
+INFO  2020-02-13 15:18:34,831 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-02-13 15:18:34,908 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2020-02-13 15:18:34,910 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2020-02-13 15:18:34,913 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2020-02-13 15:18:34,918 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2020-02-13 15:18:34,923 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2020-02-13 15:18:34,926 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.823ms 200 font/woff2
+INFO  2020-02-13 15:18:34,928 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.4228ms 200 font/woff2
+INFO  2020-02-13 15:18:34,930 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2020-02-13 15:18:34,933 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.2987ms 200 font/woff2
+INFO  2020-02-13 15:18:34,984 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 150.0466ms.
+INFO  2020-02-13 15:18:34,991 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-02-13 15:18:34,994 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 197.0154ms
+INFO  2020-02-13 15:18:34,998 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.4598ms 200 application/x-javascript
+INFO  2020-02-13 15:18:35,104 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 318.7092ms.
+INFO  2020-02-13 15:18:35,166 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:18:35,172 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 393.4078ms
+INFO  2020-02-13 15:18:35,174 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 455.0448ms 200 application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:18:35,209 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-02-13 15:18:35,214 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\favicon.ico'
+INFO  2020-02-13 15:18:35,217 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.8033ms 200 image/x-icon
+INFO  2020-02-13 15:19:09,053 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 280
+INFO  2020-02-13 15:19:09,065 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:19:09,160 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc) with arguments (HCL.HackatonHotels.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2020-02-13 15:19:10,508 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-02-13 15:19:10,515 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1352.2142ms.
+INFO  2020-02-13 15:19:10,769 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-02-13 15:19:10,780 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.AccountController.Login (HCL.HackatonHotels.Web.Mvc) in 1713.039ms
+INFO  2020-02-13 15:19:10,783 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1729.9782ms 200 application/json; charset=utf-8
+INFO  2020-02-13 15:19:10,800 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-02-13 15:19:10,856 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:19:10,894 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-02-13 15:19:10,900 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+INFO  2020-02-13 15:19:10,903 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7052ms.
+INFO  2020-02-13 15:19:11,172 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-02-13 15:19:11,701 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:11,702 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:11,703 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:19:12,758 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1597.8312ms.
+INFO  2020-02-13 15:19:12,766 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) in 1907.8504ms
+INFO  2020-02-13 15:19:12,769 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1968.9778ms 200 text/html; charset=utf-8
+INFO  2020-02-13 15:19:12,774 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=DeY2lH0e0tmNnO9XZ-gGVOGk6_YoWlZ49y7CnD3ST00  
+INFO  2020-02-13 15:19:12,779 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=eGSl5zNTWrXYfUx_EJW9ksC3CUTUUxvxmPiA3aQDtQo  
+INFO  2020-02-13 15:19:12,783 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+INFO  2020-02-13 15:19:12,795 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.4525ms 200 text/css
+INFO  2020-02-13 15:19:12,800 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2020-02-13 15:19:12,803 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.773ms 200 text/css
+INFO  2020-02-13 15:19:12,816 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=BLxBuNISlF2O5EBHWdsX039NvnIHy-GtcqeI_MbyIc0  
+INFO  2020-02-13 15:19:12,820 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=YM2mAT6Z3Bl89X14nBvhOgTo5bZeRXMimN62teEck84  
+INFO  2020-02-13 15:19:12,823 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-02-13 15:19:12,825 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.3011ms 200 text/css
+INFO  2020-02-13 15:19:12,830 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=tXulJKckrq2j2wo8a9hvmXLDEQwhGviPTIYmEzy1dNI  
+INFO  2020-02-13 15:19:12,835 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2020-02-13 15:19:12,839 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=ESVSX4dkOxamaRoYfcqPM2FfErhgfxS60fp1Fa8ou1w  
+INFO  2020-02-13 15:19:12,840 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.3551ms 200 text/css
+INFO  2020-02-13 15:19:12,844 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=w347yqiscLjM_TxUKpqeUA1LDR3w5vshQpxpTsgkLhE  
+INFO  2020-02-13 15:19:12,846 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2020-02-13 15:19:12,850 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2020-02-13 15:19:12,851 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.8874ms 200 application/javascript
+INFO  2020-02-13 15:19:12,853 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.6626ms 200 application/javascript
+INFO  2020-02-13 15:19:12,855 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2020-02-13 15:19:12,858 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1005ms 200 application/javascript
+INFO  2020-02-13 15:19:12,930 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=RQruqClWPSu7O6l9-bzesJOrIOxROTb3CPVyIIqP_cw  
+INFO  2020-02-13 15:19:12,934 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2020-02-13 15:19:12,936 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637172038961090124  
+INFO  2020-02-13 15:19:12,938 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.2126ms 200 application/javascript
+INFO  2020-02-13 15:19:12,947 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2020-02-13 15:19:12,950 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637172038961090124  
+INFO  2020-02-13 15:19:12,973 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-02-13 15:19:12,977 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2020-02-13 15:19:12,980 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.5448ms 200 font/woff2
+INFO  2020-02-13 15:19:13,004 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-02-13 15:19:13,015 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.2193ms.
+INFO  2020-02-13 15:19:13,017 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=1yGr-J4NjYMQVt6LP6vocjHIWhO-BFQLfdCs8x1Mv-U  
+INFO  2020-02-13 15:19:13,020 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=jTdZBAadu6DXq0iDTFX6vsn4q6bFhKm3XfN8Jz6dSmg  
+INFO  2020-02-13 15:19:13,022 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-02-13 15:19:13,025 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=CkgjYx6n1TnvjY7LLp6BcdXQVatpxCq2zyfWEskUzfM  
+INFO  2020-02-13 15:19:13,029 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=29sBFLQqLjO75nJ0LYS7Pbb2F-CpSMccw55qO82J2YU  
+INFO  2020-02-13 15:19:13,033 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-02-13 15:19:13,043 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+INFO  2020-02-13 15:19:13,046 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 50.2115ms
+INFO  2020-02-13 15:19:13,050 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.9646ms 200 application/javascript
+INFO  2020-02-13 15:19:13,052 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-02-13 15:19:13,054 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.8942ms 200 application/x-javascript
+INFO  2020-02-13 15:19:13,057 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=HWknRmQ2zusqaWuzrej93naq1OoycPq7LXRXB54NpN0  
+INFO  2020-02-13 15:19:13,060 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.5125ms 200 application/javascript
+INFO  2020-02-13 15:19:13,063 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=O7ZH97JawAgmG1Seh_Y5I3SYWYihlR9ImDKGQvqOngg  
+INFO  2020-02-13 15:19:13,066 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2020-02-13 15:19:13,069 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=wslWsV-vfGziuMBzzhupFof-18pfuz4OQgquvDcQbFs  
+INFO  2020-02-13 15:19:13,086 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2020-02-13 15:19:13,096 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.9323ms 200 application/javascript
+INFO  2020-02-13 15:19:13,097 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.1178ms 200 application/javascript
+INFO  2020-02-13 15:19:13,100 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=frd2m6PMZSVLif63yR1wZLQh51vHKpU2-VClBasvXE0  
+INFO  2020-02-13 15:19:13,103 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=bqatUhcViEOX7SnfTMWPfDOvlLd8aATcUx0PJ8W9Ig8  
+INFO  2020-02-13 15:19:13,116 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+INFO  2020-02-13 15:19:13,137 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+INFO  2020-02-13 15:19:13,143 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.9443ms 200 application/javascript
+INFO  2020-02-13 15:19:13,175 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.9339ms 200 application/javascript
+INFO  2020-02-13 15:19:13,186 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2020-02-13 15:19:13,191 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2020-02-13 15:19:13,195 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2020-02-13 15:19:13,200 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-02-13 15:19:13,205 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\images\user-img-background.jpg'
+INFO  2020-02-13 15:19:13,219 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 144.8034ms 200 application/javascript
+INFO  2020-02-13 15:19:13,223 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.5692ms 200 image/jpeg
+INFO  2020-02-13 15:19:13,227 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=9IaxiwEOUe_4hqw9rGjxHR4fkZkw0aWMq5oZphlhlJ8  
+INFO  2020-02-13 15:19:13,232 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2020-02-13 15:19:13,236 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\images\user.png'
+INFO  2020-02-13 15:19:13,238 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.2971ms 200 application/javascript
+INFO  2020-02-13 15:19:13,246 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.2854ms 200 image/png
+INFO  2020-02-13 15:19:13,253 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=_4iveHXfwKkb3inuYFqzqLOwZNGzuOQ9UT8MRGQZygM  
+WARN  2020-02-13 15:19:13,256 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:19:13,258 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+WARN  2020-02-13 15:19:13,259 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:13,261 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:19:13,270 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=twS7CJxF-FbYFNy9f72Cew5eZT5iZ6GayXqk_w59fLw  
+INFO  2020-02-13 15:19:13,274 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.8308ms 200 application/javascript
+INFO  2020-02-13 15:19:13,281 [36   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2020-02-13 15:19:13,286 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 185.999ms 200 application/javascript
+INFO  2020-02-13 15:19:13,288 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-02-13 15:19:13,290 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+INFO  2020-02-13 15:19:13,293 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.2144ms 200 application/javascript
+INFO  2020-02-13 15:19:13,298 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=hMx2p_NtbIUcWOmiEdzS204TaDthln32OZp_8bP4DgU  
+INFO  2020-02-13 15:19:13,300 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.5828ms 200 application/javascript
+INFO  2020-02-13 15:19:13,305 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2020-02-13 15:19:13,307 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.9174ms 200 application/javascript
+INFO  2020-02-13 15:19:13,314 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 111.7239ms.
+INFO  2020-02-13 15:19:13,317 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:19:13,321 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 283.3908ms
+INFO  2020-02-13 15:19:13,324 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 373.7391ms 200 application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:19:13,336 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-02-13 15:19:13,395 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.4918ms 200 application/json
+INFO  2020-02-13 15:19:13,512 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=kbh9ytjAnrborRSYMEsI-A  
+INFO  2020-02-13 15:19:13,752 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-02-13 15:19:13,789 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"kbh9ytjAnrborRSYMEsI-A","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T15:19:13.7813346+02:00","Properties":{}}
+DEBUG 2020-02-13 15:19:13,851 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: kbh9ytjAnrborRSYMEsI-A
+INFO  2020-02-13 15:19:16,183 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Rooms  
+INFO  2020-02-13 15:19:16,197 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Rooms", area = ""}. Executing action HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:19:16,510 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+INFO  2020-02-13 15:19:28,684 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12170.2457ms.
+INFO  2020-02-13 15:19:29,026 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-02-13 15:19:29,035 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,036 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Room Number' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,037 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Room Type' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,037 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Price' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,038 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Description' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,039 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Availability' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,039 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Create New Room' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,044 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Room Details' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,303 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,304 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,305 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:19:29,377 [36   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 363.6861ms.
+INFO  2020-02-13 15:19:29,381 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc) in 13179.6945ms
+INFO  2020-02-13 15:19:29,384 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13201.1853ms 200 text/html; charset=utf-8
+INFO  2020-02-13 15:19:29,416 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637172038961090124  
+INFO  2020-02-13 15:19:29,418 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637172038961090124  
+INFO  2020-02-13 15:19:29,429 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-02-13 15:19:29,432 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-02-13 15:19:29,437 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=DPeiB_g1G-p6vLnqXPUyH8Dfqcq9QUXSHvdYYUAFhHs  
+INFO  2020-02-13 15:19:29,441 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-02-13 15:19:29,446 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-02-13 15:19:29,447 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.0598ms.
+INFO  2020-02-13 15:19:29,451 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/Index.js'. Physical path: 'C:\Users\Kh30pS\Documents\GitHub\HCL.HotelsProject\aspnet-core\src\HCL.HackatonHotels.Web.Mvc\wwwroot\view-resources\Views\Users\Index.js'
+INFO  2020-02-13 15:19:29,454 [21   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-02-13 15:19:29,459 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.4078ms 200 application/javascript
+INFO  2020-02-13 15:19:29,464 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 24.7868ms
+INFO  2020-02-13 15:19:29,473 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.8516ms 200 application/x-javascript
+WARN  2020-02-13 15:19:29,475 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,476 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:19:29,477 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+DEBUG 2020-02-13 15:19:29,484 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: kbh9ytjAnrborRSYMEsI-A
+INFO  2020-02-13 15:19:29,493 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 44.9391ms.
+INFO  2020-02-13 15:19:29,496 [36   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:19:29,498 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 63.6855ms
+INFO  2020-02-13 15:19:29,502 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 88.0417ms 200 application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:19:29,512 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16003.5489ms 101 
+INFO  2020-02-13 15:19:29,560 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-02-13 15:19:29,568 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.4404ms 200 application/json
+INFO  2020-02-13 15:19:29,608 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=oXsU_bV6CcM3oK2JMZgP9A  
+INFO  2020-02-13 15:19:29,628 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-02-13 15:19:29,629 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"oXsU_bV6CcM3oK2JMZgP9A","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T15:19:29.629166+02:00","Properties":{}}
+DEBUG 2020-02-13 15:19:29,629 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: oXsU_bV6CcM3oK2JMZgP9A
+INFO  2020-02-13 15:19:37,565 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Rooms  
+INFO  2020-02-13 15:19:37,574 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Rooms", area = ""}. Executing action HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:19:37,579 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+DEBUG 2020-02-13 15:20:39,472 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 15:20:39,549 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 15:20:39,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Startup.HackatonHotelsWebMvcModule, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,571 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:39,578 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 15:20:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:20:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:20:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:20:39,652 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:20:40,098 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:40,343 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:20:41,354 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 15:20:41,438 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 15:20:41,516 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 15:20:41,558 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 15:20:41,612 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 15:20:41,876 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 15:20:42,055 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 15:20:42,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-13 15:20:42,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 15:20:42,113 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 15:20:42,113 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 15:20:42,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 15:20:42,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 15:20:42,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 15:20:42,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 15:20:42,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+DEBUG 2020-02-13 15:20:42,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-02-13 15:20:42,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-02-13 15:20:48,990 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-02-13 15:20:48,990 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2020-02-13 15:20:49,100 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 113.449ms 200 
+INFO  2020-02-13 15:20:54,259 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:20:54,326 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-02-13 15:20:54,382 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+INFO  2020-02-13 15:20:54,392 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.4157ms.
+INFO  2020-02-13 15:20:54,980 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-02-13 15:20:57,169 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:20:57,170 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:20:57,170 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:20:58,371 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3457.1899ms.
+INFO  2020-02-13 15:20:58,384 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) in 4119.485ms
+INFO  2020-02-13 15:20:58,418 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9437.3271ms 200 text/html; charset=utf-8
+INFO  2020-02-13 15:20:58,488 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637172040420566177  
+INFO  2020-02-13 15:20:58,491 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637172040420566177  
+INFO  2020-02-13 15:20:58,535 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-02-13 15:20:58,542 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-02-13 15:20:58,589 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-02-13 15:20:58,641 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-02-13 15:20:58,849 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 205.6845ms.
+INFO  2020-02-13 15:20:58,858 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-02-13 15:20:58,863 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 318.9494ms
+INFO  2020-02-13 15:20:58,866 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 382.5359ms 200 application/x-javascript
+WARN  2020-02-13 15:20:59,001 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:20:59,001 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:20:59,002 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:20:59,040 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 448.8638ms.
+INFO  2020-02-13 15:20:59,134 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:20:59,137 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 599.1507ms
+INFO  2020-02-13 15:20:59,140 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 656.3748ms 200 application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:20:59,156 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-02-13 15:20:59,211 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.1975ms 200 application/json
+INFO  2020-02-13 15:20:59,341 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=kdnqcmmZnn7smhXiBF79ow  
+INFO  2020-02-13 15:20:59,617 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-02-13 15:20:59,661 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"kdnqcmmZnn7smhXiBF79ow","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T15:20:59.6491858+02:00","Properties":{}}
+DEBUG 2020-02-13 15:20:59,719 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: kdnqcmmZnn7smhXiBF79ow
+INFO  2020-02-13 15:21:01,320 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Rooms  
+INFO  2020-02-13 15:21:01,331 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Rooms", area = ""}. Executing action HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:21:01,953 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+DEBUG 2020-02-13 15:24:11,131 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 15:24:11,212 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 15:24:11,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Startup.HackatonHotelsWebMvcModule, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:11,244 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 15:24:11,329 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:24:11,329 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:24:11,329 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:24:11,329 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:24:11,817 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:12,063 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:24:13,105 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 15:24:13,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 15:24:13,264 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 15:24:13,308 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 15:24:13,363 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 15:24:13,637 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 15:24:13,820 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 15:24:13,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-13 15:24:13,870 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 15:24:13,877 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 15:24:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 15:24:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 15:24:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 15:24:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 15:24:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 15:24:13,879 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+DEBUG 2020-02-13 15:24:13,879 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-02-13 15:24:13,879 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-02-13 15:24:21,570 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-02-13 15:24:21,571 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2020-02-13 15:24:21,679 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109.2977ms 200 
+INFO  2020-02-13 15:24:26,997 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:24:27,061 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-02-13 15:24:27,118 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+INFO  2020-02-13 15:24:27,128 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.9239ms.
+INFO  2020-02-13 15:24:27,628 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-02-13 15:24:29,994 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:24:29,995 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:24:29,996 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:24:31,213 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3637.0025ms.
+INFO  2020-02-13 15:24:31,230 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) in 4227.7106ms
+INFO  2020-02-13 15:24:31,274 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9711.8814ms 200 text/html; charset=utf-8
+INFO  2020-02-13 15:24:31,355 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637172042538215604  
+INFO  2020-02-13 15:24:31,358 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637172042538215604  
+INFO  2020-02-13 15:24:31,404 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-02-13 15:24:31,413 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-02-13 15:24:31,466 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-02-13 15:24:31,514 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-02-13 15:24:31,733 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 216.4045ms.
+INFO  2020-02-13 15:24:31,742 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-02-13 15:24:31,748 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 332.0892ms
+INFO  2020-02-13 15:24:31,752 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 404.5502ms 200 application/x-javascript
+WARN  2020-02-13 15:24:31,860 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:24:31,860 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:24:31,861 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:24:31,901 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 432.658ms.
+INFO  2020-02-13 15:24:31,966 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:24:31,969 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 561.6804ms
+INFO  2020-02-13 15:24:31,972 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 622.128ms 200 application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:24:31,986 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-02-13 15:24:32,036 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.8047ms 200 application/json
+INFO  2020-02-13 15:24:32,148 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=4wm4N1LqhF8o2OXrsznmGg  
+INFO  2020-02-13 15:24:32,457 [10   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-02-13 15:24:32,505 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"4wm4N1LqhF8o2OXrsznmGg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T15:24:32.4938666+02:00","Properties":{}}
+DEBUG 2020-02-13 15:24:32,578 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 4wm4N1LqhF8o2OXrsznmGg
+INFO  2020-02-13 15:24:35,549 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Rooms  
+INFO  2020-02-13 15:24:35,559 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Rooms", area = ""}. Executing action HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:24:36,183 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+DEBUG 2020-02-13 15:25:12,274 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 15:25:12,357 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 15:25:12,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Startup.HackatonHotelsWebMvcModule, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,379 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,380 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,381 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:12,385 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 15:25:12,461 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:25:12,461 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:25:12,461 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:25:12,462 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:25:12,900 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:13,140 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:25:14,134 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 15:25:14,226 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 15:25:14,302 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 15:25:14,361 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 15:25:14,410 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 15:25:14,675 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 15:25:14,854 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 15:25:14,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-13 15:25:14,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 15:25:14,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 15:25:14,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 15:25:14,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 15:25:14,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 15:25:14,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 15:25:14,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 15:25:14,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+DEBUG 2020-02-13 15:25:14,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-02-13 15:25:14,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-02-13 15:25:21,710 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2020-02-13 15:25:21,710 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-02-13 15:25:21,808 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.455ms 200 
+INFO  2020-02-13 15:25:27,108 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:25:27,170 [13   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-02-13 15:25:27,228 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+INFO  2020-02-13 15:25:27,237 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.1122ms.
+INFO  2020-02-13 15:25:27,708 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-02-13 15:25:29,874 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:25:29,876 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:25:29,876 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:25:31,280 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3629.6011ms.
+INFO  2020-02-13 15:25:31,296 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) in 4183.2318ms
+INFO  2020-02-13 15:25:31,329 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9630.6181ms 200 text/html; charset=utf-8
+INFO  2020-02-13 15:25:31,396 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637172043148554503  
+INFO  2020-02-13 15:25:31,398 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637172043148554503  
+INFO  2020-02-13 15:25:31,442 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-02-13 15:25:31,450 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-02-13 15:25:31,498 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-02-13 15:25:31,549 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-02-13 15:25:31,760 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 208.0189ms.
+INFO  2020-02-13 15:25:31,768 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-02-13 15:25:31,773 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 320.0047ms
+INFO  2020-02-13 15:25:31,777 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 380.9496ms 200 application/x-javascript
+WARN  2020-02-13 15:25:31,846 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:25:31,847 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:25:31,848 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:25:31,884 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 383.5638ms.
+INFO  2020-02-13 15:25:31,945 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:25:31,949 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 503.3655ms
+INFO  2020-02-13 15:25:31,952 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 557.0309ms 200 application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:25:31,963 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-02-13 15:25:32,015 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.646ms 200 application/json
+INFO  2020-02-13 15:25:32,130 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=_ebH2A8wt_pAbPBXP5TQ2Q  
+INFO  2020-02-13 15:25:32,423 [14   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-02-13 15:25:32,462 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"_ebH2A8wt_pAbPBXP5TQ2Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T15:25:32.4514284+02:00","Properties":{}}
+DEBUG 2020-02-13 15:25:32,519 [14   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: _ebH2A8wt_pAbPBXP5TQ2Q
+INFO  2020-02-13 15:25:33,463 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Rooms  
+INFO  2020-02-13 15:25:33,473 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Rooms", area = ""}. Executing action HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:25:34,083 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+DEBUG 2020-02-13 15:27:02,944 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-02-13 15:27:03,021 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-02-13 15:27:03,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.Web.Startup.HackatonHotelsWebMvcModule, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsWebCoreModule, HCL.HackatonHotels.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsApplicationModule, HCL.HackatonHotels.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.HackatonHotelsCoreModule, HCL.HackatonHotels.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsEntityFrameworkModule, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,049 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-02-13 15:27:03,128 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:27:03,128 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:27:03,129 [1    ] o.Configuration.LanguageManagementConfig - Converted HackatonHotels (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:27:03,129 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-02-13 15:27:03,576 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:03,819 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: HCL.HackatonHotels.EntityFrameworkCore.HackatonHotelsDbContext, HCL.HackatonHotels.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-02-13 15:27:04,870 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-02-13 15:27:04,960 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-02-13 15:27:05,036 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-02-13 15:27:05,079 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: HackatonHotels
+DEBUG 2020-02-13 15:27:05,141 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-02-13 15:27:05,405 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-02-13 15:27:05,583 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2020-02-13 15:27:05,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-02-13 15:27:05,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-02-13 15:27:05,640 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.CreateUserDto
+DEBUG 2020-02-13 15:27:05,641 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Users.Dto.UserDto
+DEBUG 2020-02-13 15:27:05,641 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-02-13 15:27:05,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-02-13 15:27:05,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Roles.Dto.PermissionDto
+DEBUG 2020-02-13 15:27:05,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-02-13 15:27:05,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.MultiTenancy.Dto.TenantDto
+DEBUG 2020-02-13 15:27:05,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-02-13 15:27:05,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - HCL.HackatonHotels.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-02-13 15:27:13,522 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-02-13 15:27:13,522 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2020-02-13 15:27:13,620 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.1725ms 200 
+INFO  2020-02-13 15:27:18,701 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:27:18,765 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-02-13 15:27:18,823 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid
+INFO  2020-02-13 15:27:18,832 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.7615ms.
+INFO  2020-02-13 15:27:19,427 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-02-13 15:27:22,271 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:27:22,272 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:27:22,273 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:27:23,783 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 4405.8315ms.
+INFO  2020-02-13 15:27:23,797 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action HCL.HackatonHotels.Web.Controllers.HomeController.Index (HCL.HackatonHotels.Web.Mvc) in 5090.3596ms
+INFO  2020-02-13 15:27:23,820 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10307.1666ms 200 text/html; charset=utf-8
+INFO  2020-02-13 15:27:23,998 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637172044255845616  
+INFO  2020-02-13 15:27:24,000 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637172044255845616  
+INFO  2020-02-13 15:27:24,052 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2020-02-13 15:27:24,062 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2020-02-13 15:27:24,104 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2020-02-13 15:27:24,151 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2020-02-13 15:27:24,315 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 161.3785ms.
+INFO  2020-02-13 15:27:24,325 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-02-13 15:27:24,330 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 264.8396ms
+INFO  2020-02-13 15:27:24,332 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 334.6499ms 200 application/x-javascript
+WARN  2020-02-13 15:27:24,506 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Hotels' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:27:24,506 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Rooms' in localization source 'HackatonHotels'!
+WARN  2020-02-13 15:27:24,507 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Clients' in localization source 'HackatonHotels'!
+INFO  2020-02-13 15:27:24,547 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 440.4053ms.
+INFO  2020-02-13 15:27:24,631 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:27:24,634 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 580.061ms
+INFO  2020-02-13 15:27:24,637 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 639.4636ms 200 application/x-javascript; charset=utf-8
+INFO  2020-02-13 15:27:24,650 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-02-13 15:27:24,706 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.5279ms 200 application/json
+INFO  2020-02-13 15:27:24,716 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=kfI0guOSa3c3WVrEs9UXhw  
+INFO  2020-02-13 15:27:24,944 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2020-02-13 15:27:24,981 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"kfI0guOSa3c3WVrEs9UXhw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-02-13T15:27:24.9716087+02:00","Properties":{}}
+DEBUG 2020-02-13 15:27:25,035 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: kfI0guOSa3c3WVrEs9UXhw
+INFO  2020-02-13 15:27:30,908 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Rooms  
+INFO  2020-02-13 15:27:30,919 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Rooms", area = ""}. Executing action HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc)
+INFO  2020-02-13 15:27:31,531 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method HCL.HackatonHotels.Web.Mvc.Controllers.RoomsController.Index (HCL.HackatonHotels.Web.Mvc) - Validation state: Valid

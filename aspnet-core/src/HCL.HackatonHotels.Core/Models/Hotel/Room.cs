@@ -25,6 +25,7 @@ namespace HCL.HackatonHotels.Core.Models.Hotel
         public Hotel Hotel { get; set; }
 
         public ICollection<BookedRoom> Books { get; set; }
+        public bool IsActive { get; set; }
 
         public bool IsTransient()
         {

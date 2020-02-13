@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HCL.HackatonHotels.Roles.Dto
+﻿namespace HCL.HackatonHotels.Roles.Dto
 {
     public class RoomDto
     {
 
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public int RoomNumber { get; set; }
 
