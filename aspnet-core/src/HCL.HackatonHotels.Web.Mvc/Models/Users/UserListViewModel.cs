@@ -12,5 +12,6 @@ namespace HCL.HackatonHotels.Web.Models.Users
 
         public IReadOnlyList<RoomDto> Rooms { get; set; }
 
+        public IReadOnlyList<ClientDto> Clients { get; set; }
     }
 }

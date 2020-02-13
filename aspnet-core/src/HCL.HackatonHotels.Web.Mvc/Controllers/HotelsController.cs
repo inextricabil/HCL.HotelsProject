@@ -13,5 +13,9 @@ namespace HCL.HackatonHotels.Web.Mvc.Controllers
         {
             return View();
         }
+
+        //public async Task<ActionResult> EditRoleModal(int roleId)
+        //{
+        //}
     }
 }
